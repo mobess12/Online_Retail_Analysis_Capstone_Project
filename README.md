@@ -30,9 +30,25 @@ Column Descriptors
 * List here your project hypothesis(es) and how you envision validating it (them) 
 
 ## Project Plan
-* Outline the high-level steps taken for the analysis.
-* How was the data managed throughout the collection, processing, analysis and interpretation steps?
-* Why did you choose the research methodologies you used?
+1. Data Collection
+    - Gather the dataset from Kaggle
+    - Unzip folder and extract contents to be imported into VSCode
+2. Data Cleaning and Preprocessing
+    - Investigate dataset on Microsoft Excel
+    - Handle null values, remove duplicates, and correct data types to appropriate ones 
+    - Remove irrelevant data (e.g., transactions with negative quantities, product descriptions that are not products such as "damages and ?")
+    - Create new features Total Transaction Value (Quantity*UnitPrice)
+3. Save the cleaned data to a new CSV file
+    - Save cleaned dataset as processed data
+    - Use descriptive statistics to understand the data
+4. Explore Data and Visualise
+    - Create visualisations based on sales, customers and products to identify trends and patterns for key insights, conclusions, recommendations and improvements
+    - Create RFM cluster analysis to identify customer categories
+    - Create visualisations in line with hypotheses, detailing key insights, conclusions, recommendations and improvements.
+    - Test hypotheses using T Test
+5. Dashboard Creation
+    - Use a wireframe and DASHBOARD TOOL to plan and create an interactive dashboard that includes key metrics and visualisations in line with the hypotheses
+
 
 ## The rationale to map the business requirements to the Data Visualisations
 * List your business requirements and a rationale to map them to the Data Visualisations
@@ -51,6 +67,10 @@ Column Descriptors
 * Later, during the project development, you may revisit your dashboard plan to update a given feature (for example, at the beginning of the project you were confident you would use a given plot to display an insight but subsequently you used another plot type).
 * How were data insights communicated to technical and non-technical audiences?
 * Explain how the dashboard was designed to communicate complex data insights to different audiences. 
+
+## Kanban Board
+-  You can find the project board [here](https://github.com/users/mobess12/projects/3/views/1)
+
 
 ## Unfixed Bugs
 * Please mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable to consider, paucity of time and difficulty understanding implementation are not valid reasons to leave bugs unfixed.

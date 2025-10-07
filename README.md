@@ -6,7 +6,20 @@
 
 
 ## Dataset Content
-* Describe your dataset. Choose a dataset of reasonable size to avoid exceeding the repository's maximum size of 100Gb.
+
+Online Retail Dataset can be found [here]( https://www.kaggle.com/datasets/abhishekrp1517/online-retail-transactions-dataset)
+
+The online retail dataset contains transactional data of 13 months, including product details, quantities, prices, purchase timestamps, customer IDs, and country information. It can be used to analyse customer behavior, identify popular products, and support pricing and marketing strategies. It's suitable for data analysis and machine learning. 
+
+Column Descriptors
+
+- StockCode: A code used to identify the product that was purchased
+- Description: A brief description of the product that was purchased
+- Quantity: The quantity of the product that was purchased
+- InvoiceDate: The date and time that the purchase was made
+- UnitPrice: The price of one unit of the product that was purchased
+- CustomerID: The unique identifier for the customer who made the purchase
+- Country: The country where the customer who made the purchase is located
 
 
 ## Business Requirements
@@ -31,8 +44,7 @@
 * How did you use generative AI tools to help with ideation, design thinking and code optimisation?
 
 ## Ethical considerations
-* Were there any data privacy, bias or fairness issues with the data?
-* How did you overcome any legal or societal issues?
+- The online retail dataset came from Kaggle and does not have any legal or societal issues. There was no personal data within the dataset which could expose or identify anything personal to a particular individual.
 
 ## Dashboard Design
 * List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other item that your dashboard library supports.
@@ -65,8 +77,13 @@
 
 
 ## Main Data Analysis Libraries
-* Here you should list the libraries you used in the project and provide an example(s) of how you used these libraries.
 
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Plotly
+- SKLearn
 
 ## Credits 
 
@@ -78,13 +95,6 @@
 - The text for the Home page was taken from Wikipedia Article A
 - Instructions on how to implement form validation on the Sign-Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-
-### Media
-
-- The photos used on the home and sign-up page are from This Open-Source site
-- The images used for the gallery page were taken from this other open-source site
-
-
 
 ## Acknowledgements (optional)
 * Thank the people who provided support through this project.

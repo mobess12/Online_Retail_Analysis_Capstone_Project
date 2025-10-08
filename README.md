@@ -166,6 +166,20 @@ I used AI with ideation in relation to understanding what type of elements are h
 -  You can find the project board [here](https://github.com/users/mobess12/projects/3/views/1)
 - You can find multiple screengrabs of the project board in the "kanban" folder within the "assets" folder.
 
+**MoSCoW**
+
+The MoSCoW method was used in this project as a framework for prioritising tasks. It helps distinguish between critical and non-essential requirements, ensuring that key objectives are addressed first and project resources are allocated effectively to what matters most for success. 
+
+- Must Have: Non-negotiable items essential for the project's success. 
+
+- Should Have:Important features that add significant value but are not essential for immediate delivery.
+
+- Could Have: Desirable features that are not necessary but would be nice to have if time and resources allow. 
+
+- Won't Have: Features that are not a priority for the current timeframe.
+
+You can find this methodology being used in the screengrab "KanBan_4.PNG" which is located in the folder "kanban" under "assets" folder.
+
 ## Unfixed Bugs
 - I don't have any unfixed bugs in this project to my knowledge.
 

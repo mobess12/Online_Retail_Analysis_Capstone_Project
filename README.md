@@ -1,6 +1,6 @@
-# Project XYZ
+# **Online Retail Analysis - Capstone Project**
 
-**Project XYZ** is a comprehensive data analysis tool designed to streamline data exploration, analysis, and visualisation. The tool supports multiple data formats and provides an intuitive interface for both novice and expert data scientists.
+Online Retail Analysis is a data-driven tool designed to support business decision making through comprehensive analysis and visualisation. Built with Python and key libraries including Pandas, Plotly, Seaborn, Matplotlib, SKLearn, a Dashboarding tool, the tool ingests raw CSV data, processes it efficiently, and delivers actionable insights via interactive visualizations in both Jupyter Notebook and dashboards.
 
 # ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
@@ -23,11 +23,49 @@ Column Descriptors
 
 
 ## Business Requirements
-* Describe your business requirements
+
+**Sales Performance Analysis**
+
+Analyse sales trends over time to identify peak periods and seasonal patterns for strategic planning.
+
+**Identifying High Value Customers**
+
+Segment customers to identify high value and high potential groups, enabling targeted marketing and personalised engagement strategies.
+
+**Enhancing Customer Retention**
+
+Identify repeat customers and analyse their purchase behaviors—such as purchase frequency and average transaction value to improve loyalty programs.
+
+**Product Performance**
+
+Determine top selling products and product categories, and evaluate inventory turnover to optimise stock management.
+
+**Geographical Insights**
+
+Examine sales performance by country or region to target marketing efforts and expand in high potential markets.
+
+**Inventory Management**
+
+Leverage sales data to make informed inventory decisions prioritising products to stock and identifying slow moving items for discontinuation.
 
 
 ## Hypothesis and how to validate?
-* List here your project hypothesis(es) and how you envision validating it (them) 
+
+Hypothesis 1 - Customers in the United Kingdom spend more than those not in the United Kingdom per transaction
+
+   - Using a boxplot is effective because it provides a clear visual comparison of distribution, central tendency, and variability between the two groups.
+
+Hypothesis 2 - Average sales are the same on weekdays and weekends.
+
+    - Using a bar chart is effective because it provides a simple and direct visual comparison of group means, which is exactly what the hypothesis is testing.
+
+Hypothesis 3 - Seasonal spend - Holiday (Black Friday and Christmas) months have a different average transaction value.
+
+    - Using a bar chart to is a great choice because it clearly summarizes and compares average transaction values across categories.
+
+Validation for these hypotheses listed above will be demonstrated using various visualisations and commentary within the data visualisations Jupyter Notebook. Commentary will include, key insights, conclusions, recommendations and improvements, and ethical and societal considerations.
+
+To validate the hypothesis, a ttest will be used to obtain the P Value. This will help understand whether they are true or false.
 
 ## Project Plan
 1. Data Collection

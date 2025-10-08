@@ -67,8 +67,6 @@ To validate the hypothesis, a ttest will be used to obtain the P Value. This wil
 
 Additionally, validation for these hypotheses will include visualisations and commentary within the data visualisations Jupyter Notebook. Commentary will include, key insights, conclusions, recommendations and improvements, and ethical and societal considerations.
 
-
-
 ## Project Plan
 1. Data Collection
     - Gather the dataset from Kaggle
@@ -85,6 +83,7 @@ Additionally, validation for these hypotheses will include visualisations and co
     - Create visualisations based on sales, customers and products to identify trends and patterns for key insights, conclusions, recommendations and improvements
     - Create RFM cluster analysis to identify customer categories
     - Create visualisations in line with hypotheses, detailing key insights, conclusions, recommendations and improvements.
+    - Commentary on ethical and societal considerations for each hypothesis
     - Test hypotheses using T Test
 5. Dashboard Creation
     - Use a wireframe and DASHBOARD TOOL to plan and create an interactive dashboard that includes key metrics and visualisations in line with the hypotheses
@@ -102,13 +101,52 @@ These business objectives are achieved by thoroughly understanding the data thro
 In the retail industry, it is common practice to analyse sales trends, seasonality, customer spending behaviours, region exposure and product preferences to inform decision making and drive business success.
 
 ## Analysis techniques used
-* List the data analysis methods used and explain limitations or alternative approaches.
-* How did you structure the data analysis techniques. Justify your response.
-* Did the data limit you, and did you use an alternative approach to meet these challenges?
-* How did you use generative AI tools to help with ideation, design thinking and code optimisation?
+
+**List of techniques used**
+
+ETL Notebook:
+
+- df.duplicated().sum() was used to check for duplicate data
+- df.drop_duplicates() was used to drop duplicate data
+- Converted datatypes to the appropriate types
+- df_info was used to provide an overview of the dataset, list of columns and missing values
+- dropna was used to remove missing values and isnull().sum() to check column for missing values
+- Added a new column in the dataset which consisted of Quantity * UnitPrice
+- info() to provide a summary of the dataset
+- str.contains(r'\?' was used to remove cells which included special characters
+- str.contains(r'[a-z] was used to remove cells which included lower case letters
+- stats_summary was used to provide descriptive statistics
+- to_csv was used to save the clean dataset
+- pd.read_csv was used to load the clean dataset
+
+Data Visualisation Notebook:
+
+- describe() was used for statistical summary
+- ttest_1samp was used for t testing to obtain p value and t-statistics
+- Hisplot chart used to display distribution of transaction values
+- Matplotlib line+bar chart was used for monthly trend analysis
+- Plotly pie chart was used for sales by day analysis
+- groupby was used in various analysis to group elements together such as CustomerID and Quantity
+- subplots and axes was used to create 3 visualisation on 1 line displaying top 6 customers by quantity, unit price and then total transaction value
+- kmeans.fit_predict was used for RFM clustering
+- Scatterplots was used for popular products charts quantity and total transaction value
+- plotly line chart was used to display the top 6 product sales trend over 13 months
+- ttest_ind was used to validate all 3 hypotheses
+- Boxplot was used to display Customer Spending Comparison: UK vs Non-UK
+- Bar chart was used to display Average Revenue: Weekdays vs Weekends
+- Bar chart was used to display Average Transaction Value: Holiday vs Non-Holiday Months
+
+I structured the data analysis techniques to include as much variation as possible from the LMS i.e. charts were used across the board of seaborn, matplotlib and plotly. I ensured that i had something to include for each method as well as picking out the best techniques related to what i wanted to produce.
+
+I did decide against an area chart for the customers section as it visually looked messy, therefore i opted for a simple bar charts. bar charts gave me the visual i needed, very simple, clear and concise.
+
+I did have some challenges in deciding what types of charts i wanted to use for my confirmed sections within the data_visualisation notebook. However i used AI to provide me with the benefits and downfalls of using particular charts. I then was able to make a decision on the best fit charting for the circumstance.
+
+I used AI with ideation in relation to understanding what type of elements are heavily viewed for an online retail dataset. I was then able to build my business requirements and hypotheses. I also used AI for deciding what areas of online retail i wanted to produce visualisations for i.e. what is the key importance or insight. I also used AI to understand some coding scripts to gain some knowledge and better understanding on how it works i.e. ttest.
 
 ## Ethical considerations
 - The online retail dataset came from Kaggle and does not have any legal or societal issues. There was no personal data within the dataset which could expose or identify anything personal to a particular individual.
+- Within the data_visualisation notebook, i have included ethical and societal considerations commentary under each hypothesis.
 
 ## Wireframe
 
@@ -126,10 +164,10 @@ In the retail industry, it is common practice to analyse sales trends, seasonali
 
 ## Kanban Board
 -  You can find the project board [here](https://github.com/users/mobess12/projects/3/views/1)
-- You can find some screenshots of the project board in the "kanban" folder within the "assets" folder.
+- You can find multiple screengrabs of the project board in the "kanban" folder within the "assets" folder.
 
 ## Unfixed Bugs
-
+- I don't have any unfixed bugs in this project to my knowledge.
 
 ## Development Roadmap
 * What challenges did you face, and what strategies were used to overcome these challenges?
@@ -167,8 +205,10 @@ In the retail industry, it is common practice to analyse sales trends, seasonali
 - YouTube
 - StackedOverflow
 - GeeksForGeeks
+- Datacamp
+- Medium
 - PlotlyCommunityForum
-- Chat GPT
+- Chat GPT and other AI engines
 - Co-Pilot
 - Facilitators
 - Colleagues

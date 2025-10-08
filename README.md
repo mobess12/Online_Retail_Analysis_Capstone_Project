@@ -110,6 +110,14 @@ In the retail industry, it is common practice to analyse sales trends, seasonali
 ## Ethical considerations
 - The online retail dataset came from Kaggle and does not have any legal or societal issues. There was no personal data within the dataset which could expose or identify anything personal to a particular individual.
 
+## Wireframe
+
+- The dashboard wireframe was created in Figma to outline the layout for the dashboard. It includes key components, such as summary cards for quick key points and charts (line, bar, pie and map). This wireframe will serve as a guide while designing the interactive dashboard.
+
+**Wireframe Design:**
+
+![alt text](assets/wireframe/Wireframe_Design.png)
+
 ## Dashboard Design
 * List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other item that your dashboard library supports.
 * Later, during the project development, you may revisit your dashboard plan to update a given feature (for example, at the beginning of the project you were confident you would use a given plot to display an insight but subsequently you used another plot type).

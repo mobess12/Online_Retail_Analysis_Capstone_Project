@@ -26,46 +26,48 @@ Column Descriptors
 
 **Sales Performance Analysis**
 
-Analyse sales trends over time to identify peak periods and seasonal patterns for strategic planning.
+- Analyse sales trends over time to identify peak periods and seasonal patterns for strategic planning.
 
 **Identifying High Value Customers**
 
-Segment customers to identify high value and high potential groups, enabling targeted marketing and personalised engagement strategies.
+- Segment customers to identify high value and high potential groups, enabling targeted marketing and personalised engagement strategies.
 
 **Enhancing Customer Retention**
 
-Identify repeat customers and analyse their purchase behaviors—such as purchase frequency and average transaction value to improve loyalty programs.
+- Identify repeat customers and analyse their purchase behaviors—such as purchase frequency and average transaction value to improve loyalty programs.
 
 **Product Performance**
 
-Determine top selling products and product categories, and evaluate inventory turnover to optimise stock management.
+- Determine top selling products and product categories, and evaluate inventory turnover to optimise stock management.
 
 **Geographical Insights**
 
-Examine sales performance by country or region to target marketing efforts and expand in high potential markets.
+- Examine sales performance by country or region to target marketing efforts and expand in high potential markets.
 
 **Inventory Management**
 
-Leverage sales data to make informed inventory decisions prioritising products to stock and identifying slow moving items for discontinuation.
+- Leverage sales data to make informed inventory decisions prioritising products to stock and identifying slow moving items for discontinuation.
 
 
 ## Hypothesis and how to validate?
 
 Hypothesis 1 - Customers in the United Kingdom spend more than those not in the United Kingdom per transaction
 
-   - Using a boxplot is effective because it provides a clear visual comparison of distribution, central tendency, and variability between the two groups.
+- Using a boxplot is effective because it provides a clear visual comparison of distribution, central tendency, and variability between the two groups.
 
 Hypothesis 2 - Average sales are the same on weekdays and weekends.
 
-    - Using a bar chart is effective because it provides a simple and direct visual comparison of group means, which is exactly what the hypothesis is testing.
+- Using a bar chart is effective because it provides a simple and direct visual comparison of group means, which is exactly what the hypothesis is testing. 
 
 Hypothesis 3 - Seasonal spend - Holiday (Black Friday and Christmas) months have a different average transaction value.
 
-    - Using a bar chart to is a great choice because it clearly summarizes and compares average transaction values across categories.
-
-Validation for these hypotheses listed above will be demonstrated using various visualisations and commentary within the data visualisations Jupyter Notebook. Commentary will include, key insights, conclusions, recommendations and improvements, and ethical and societal considerations.
+- Using a bar chart to is a great choice because it clearly summarizes and compares average transaction values across categories.
 
 To validate the hypothesis, a ttest will be used to obtain the P Value. This will help understand whether they are true or false.
+
+Additionally, validation for these hypotheses will include visualisations and commentary within the data visualisations Jupyter Notebook. Commentary will include, key insights, conclusions, recommendations and improvements, and ethical and societal considerations.
+
+
 
 ## Project Plan
 1. Data Collection
@@ -87,9 +89,17 @@ To validate the hypothesis, a ttest will be used to obtain the P Value. This wil
 5. Dashboard Creation
     - Use a wireframe and DASHBOARD TOOL to plan and create an interactive dashboard that includes key metrics and visualisations in line with the hypotheses
 
-
 ## The rationale to map the business requirements to the Data Visualisations
-* List your business requirements and a rationale to map them to the Data Visualisations
+
+- Enhance Customer Retention and Engagement
+- Enhance Marketing and Strategy for High Value Customers (loyalty & Reward Schemes)
+- Optimize Product Offerings and Inventory Management
+- Drive Expansion To Other Regions
+- Drive Strategic Sales Growth
+
+These business objectives are achieved by thoroughly understanding the data through processing and visualisation. This approach provides actionable insights and potential solutions to meet the business requirements.
+
+In the retail industry, it is common practice to analyse sales trends, seasonality, customer spending behaviours, region exposure and product preferences to inform decision making and drive business success.
 
 ## Analysis techniques used
 * List the data analysis methods used and explain limitations or alternative approaches.
@@ -108,12 +118,10 @@ To validate the hypothesis, a ttest will be used to obtain the P Value. This wil
 
 ## Kanban Board
 -  You can find the project board [here](https://github.com/users/mobess12/projects/3/views/1)
-
+- You can find some screenshots of the project board in the "kanban" folder within the "assets" folder.
 
 ## Unfixed Bugs
-* Please mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable to consider, paucity of time and difficulty understanding implementation are not valid reasons to leave bugs unfixed.
-* Did you recognise gaps in your knowledge, and how did you address them?
-* If applicable, include evidence of feedback received (from peers or instructors) and how it improved your approach or understanding.
+
 
 ## Development Roadmap
 * What challenges did you face, and what strategies were used to overcome these challenges?
@@ -142,17 +150,22 @@ To validate the hypothesis, a ttest will be used to obtain the P Value. This wil
 - Seaborn
 - Plotly
 - SKLearn
+- Scipy.Stats
 
 ## Credits 
 
-* In this section, you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-* You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
-### Content 
-
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign-Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- LMS via Code Institute
+- Google
+- YouTube
+- StackedOverflow
+- GeeksForGeeks
+- PlotlyCommunityForum
+- Chat GPT
+- Co-Pilot
+- Facilitators
+- Colleagues
 
 ## Acknowledgements (optional)
-* Thank the people who provided support through this project.
+- Vasi
+- Neil
+- Student Colleagues

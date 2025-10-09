@@ -11,7 +11,7 @@ Online Retail Dataset can be found [here]( https://www.kaggle.com/datasets/abhis
 
 The online retail dataset contains transactional data of 13 months, including product details, quantities, prices, purchase timestamps, customer IDs, and country information. It can be used to analyse customer behavior, identify popular products, and support pricing and marketing strategies. It's suitable for data analysis and machine learning. 
 
-Column Descriptors
+Column Descriptors:
 
 - StockCode: A code used to identify the product that was purchased
 - Description: A brief description of the product that was purchased
@@ -80,19 +80,26 @@ Additionally, validation for these hypotheses will include visualisations and co
     - Save cleaned dataset as processed data
     - Use descriptive statistics to understand the data
 4. Explore Data and Visualise
+    - Statistics
+    - Probability
     - Create visualisations based on sales, customers and products to identify trends and patterns for key insights, conclusions, recommendations and improvements
     - Create RFM cluster analysis to identify customer categories
     - Create visualisations in line with hypotheses, detailing key insights, conclusions, recommendations and improvements.
     - Commentary on ethical and societal considerations for each hypothesis
     - Test hypotheses using T Test
+    - Store still images in the appropriate folders (plotly charts)
 5. Dashboard Creation
     - Use a wireframe and Tableau to plan and create an interactive dashboard that includes key metrics and visualisations in line with the hypotheses
+    - Store screengrabs of the wireframe and dashboard in the appropriate folders
+6. README
+    - Write comprehensive README document
+    - Store KanBan phases images in the appropriate folder
 
 ## The rationale to map the business requirements to the Data Visualisations
 
 - Enhance Customer Retention and Engagement
 - Enhance Marketing and Strategy for High Value Customers (loyalty & Reward Schemes)
-- Optimize Product Offerings and Inventory Management
+- Optimise Product Offerings and Inventory Management
 - Drive Expansion To Other Regions
 - Drive Strategic Sales Growth
 
@@ -122,15 +129,16 @@ ETL Notebook:
 Data Visualisation Notebook:
 
 - describe() was used for statistical summary
+- Matplotlib was used to plot a pie chart for probability findings.
 - ttest_1samp was used for t testing to obtain p value and t-statistics
 - Hisplot chart used to display distribution of transaction values
 - Matplotlib line+bar chart was used for monthly trend analysis
 - Plotly pie chart was used for sales by day analysis
 - groupby was used in various analysis to group elements together such as CustomerID and Quantity
-- subplots and axes was used to create 3 visualisation on 1 line displaying top 6 customers by quantity, unit price and then total transaction value
-- kmeans.fit_predict was used for RFM clustering
+- Subplots and axes was used to create 3 visualisation on 1 line displaying top 6 customers by quantity, unit price and then total transaction value
+- Kmeans.fit_predict was used for RFM clustering
 - Scatterplots was used for popular products charts quantity and total transaction value
-- plotly line chart was used to display the top 6 product sales trend over 13 months
+- Plotly line chart was used to display the top 6 product sales trend over 13 months
 - ttest_ind was used to validate all 3 hypotheses
 - Boxplot was used to display Customer Spending Comparison: UK vs Non-UK
 - Bar chart was used to display Average Revenue: Weekdays vs Weekends
@@ -146,7 +154,7 @@ I used AI with ideation in relation to understanding what type of elements are h
 
 ## Ethical considerations
 - The online retail dataset came from Kaggle and does not have any legal or societal issues. There was no personal data within the dataset which could expose or identify anything personal to a particular individual.
-- Within the data_visualisation notebook, i have included ethical and societal considerations commentary under each hypothesis.
+- Within the data_visualisation notebook, i have included ethical and societal considerations commentary under each hypothesis and RFM customer analysis
 
 ## Wireframe
 
@@ -180,7 +188,7 @@ All charts have clear titles, labels, and legends to ensure that users can easil
 
 Worksheet list below:
 
--  Revenue Regions
+- Revenue Regions
 - Quarterly Rev & Quantity
 - Monthly Revenue Trend Analysis
 - Top 6 Product Sales Trend Analysis
@@ -196,47 +204,44 @@ Worksheet list below:
 
 Dashboard list:
 
-- Online Retail Dashboard
+- Online Retail Dashboard Preview
 ![alt text](dashboard/Dashboard.png)
 
 ## Kanban Board
 -  You can find the project board [here](https://github.com/users/mobess12/projects/3/views/1)
-- You can find multiple screengrabs of the project board in the "kanban" folder within the "assets" folder.
+- You can find multiple screengrabs of the project board [here](C:\Users\moby1\Documents\Capstone-Project\Online_Retail_Analysis_Capstone_Project\assets\kanban)
 
 **MoSCoW**
 
 The MoSCoW method was used in this project as a framework for prioritising tasks. It helps distinguish between critical and non-essential requirements, ensuring that key objectives are addressed first and project resources are allocated effectively to what matters most for success. 
 
-- Must Have: Non-negotiable items essential for the project's success. 
+- **Must Have**: Non-negotiable items essential for the project's success. 
 
-- Should Have:Important features that add significant value but are not essential for immediate delivery.
+- **Should Have**:Important features that add significant value but are not essential for immediate delivery.
 
-- Could Have: Desirable features that are not necessary but would be nice to have if time and resources allow. 
+- **Could Have**: Desirable features that are not necessary but would be nice to have if time and resources allow. 
 
-- Won't Have: Features that are not a priority for the current timeframe.
+- **Won't Have**: Features that are not a priority for the current timeframe.
 
-You can find this methodology being used in the screengrab "KanBan_4.PNG" which is located in the folder "kanban" under "assets" folder.
+You can find this methodology being used [here](C:\Users\moby1\Documents\Capstone-Project\Online_Retail_Analysis_Capstone_Project\assets\kanban\KanBan_4.png)
 
 ## Unfixed Bugs
 - I don't have any unfixed bugs in this project to my knowledge.
 
 ## Development Roadmap
-* What challenges did you face, and what strategies were used to overcome these challenges?
-* What new skills or tools do you plan to learn next based on your project experience? 
+
+- I did not encounter any major issues. I had offered out my help to others and luckily for me, student colleagues offered me advice and provided further knowledge if i needed it. 
+- Given I have come across issues in the past through this bootcamp, a lot of the issues that may have arised were rectified and newly learnt prior. Therefore referring back to experience, notes, LMS content and Google and colleagues in these situations was the solution.
+- I have never done a wireframe design prior to this project, however I asked for advice off a colleague which essentially gave me the knowledge to build a customer wireframe.
+- I have never created a full Tableau dashboard prior to this project, however have been involved in some elements of it and have knowledge of Power BI. In this project I chose to use Tableau to challenge myself and gain experience in another dashboarding tool. I built the entirety of the dashboard on my own and using resources such as YouTube and Google as a FAQ engines aided where it was needed.
+- I want to experience more with VSCode and Tableau as I can see the benefits it can bring to data analytics. 
+- I aim to continue practicing python on VSCode and building small to medium projects, while using Tableau to produce dashboards. This will give me more hands on experience and skill development for the future. 
 
 ## Deployment
 ### Tableau
 
-* The App live link is: https://YOUR_APP_NAME.herokuapp.com/ 
-* Set the runtime.txt Python version to a [Heroku-20](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version.
-* The project was deployed to Heroku using the following steps.
+- You can find a link to our dashboard [here] DO NOT FORGET TO LINK URL 
 
-1. Log in to Heroku and create an App
-2. From the Deploy tab, select GitHub as the deployment method.
-3. Select your repository name and click Search. Once it is found, click Connect.
-4. Select the branch you want to deploy, then click Deploy Branch.
-5. The deployment process should happen smoothly if all deployment files are fully functional. Click now the button Open App on the top of the page to access your App.
-6. If the slug size is too large then add large files not required for the app to the .slugignore file.
 
 
 ## Main Data Analysis Libraries

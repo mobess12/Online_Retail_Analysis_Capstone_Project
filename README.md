@@ -4,6 +4,24 @@ Online Retail Analysis is a data driven tool designed to support business decisi
 
 # ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
+## 📘 Table of Contents
+
+1. [Dataset Content](#dataset-content)
+2. [Business Requirements](#business-requirements)
+3. [Hypothesis and How to Validate?](#hypothesis-and-how-to-validate)
+4. [Project Plan](#project-plan)
+5. [Rationale for Visualisations](#rationale-for-visualisations)
+6. [Analysis Techniques Used](#analysis-techniques-used)
+7. [Ethical Considerations](#ethical-considerations)
+8. [Wireframe](#wireframe)
+9. [Dashboard Design](#dashboard-design)
+10. [KanBan Board](#kanban-board)
+11. [Unfixed Bugs](#unfixed-bugs)
+12. [Development Roadmap](#development-roadmap)
+13. [Deployment](#deployment)
+14. [Main Data Analysis Libraries](#main-data-analysis-libraries)
+15. [Credits](#credits)
+16. [Acknowledgements](#acknowledgements)
 
 ## Dataset Content
 
@@ -165,6 +183,7 @@ I used AI with ideation in relation to understanding what type of elements are h
 
 ## Ethical considerations
 - The online retail dataset came from Kaggle and does not have any legal or societal issues. There was no personal data within the dataset which could expose or identify anything personal to a particular individual.
+- Within the ETL notebook, i have included ethical, legal and social implications for data handling
 - Within the data_visualisation notebook, i have included ethical and societal considerations commentary under each hypothesis and RFM customer analysis
 
 ## Wireframe
@@ -284,7 +303,7 @@ Preview:
 - Github
 - Tableau
 
-## Acknowledgements (optional)
+## Acknowledgements 
 - Vasi
 - Neil
 - Student Colleagues

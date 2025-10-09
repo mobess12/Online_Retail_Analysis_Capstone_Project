@@ -1,6 +1,6 @@
 # **Online Retail Analysis - Capstone Project**
 
-Online Retail Analysis is a data-driven tool designed to support business decision making through comprehensive analysis and visualisation. Built with Python and key libraries including Pandas, Plotly, Seaborn, Matplotlib, SKLearn, a Dashboarding tool, the tool ingests raw CSV data, processes it efficiently, and delivers actionable insights via interactive visualizations in both Jupyter Notebook and dashboards.
+Online Retail Analysis is a data driven tool designed to support business decision making through comprehensive analysis and visualisation. Built with Python and key libraries including Pandas, Plotly, Seaborn, Matplotlib, SKLearn, Tableau, the tool ingests raw CSV data, processes it efficiently, and delivers actionable insights via interactive visualisations in both Jupyter Notebook and Tableau.
 
 # ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
@@ -86,7 +86,7 @@ Additionally, validation for these hypotheses will include visualisations and co
     - Commentary on ethical and societal considerations for each hypothesis
     - Test hypotheses using T Test
 5. Dashboard Creation
-    - Use a wireframe and DASHBOARD TOOL to plan and create an interactive dashboard that includes key metrics and visualisations in line with the hypotheses
+    - Use a wireframe and Tableau to plan and create an interactive dashboard that includes key metrics and visualisations in line with the hypotheses
 
 ## The rationale to map the business requirements to the Data Visualisations
 
@@ -157,10 +157,47 @@ I used AI with ideation in relation to understanding what type of elements are h
 ![alt text](assets/wireframe/Wireframe_Design.png)
 
 ## Dashboard Design
-* List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other item that your dashboard library supports.
-* Later, during the project development, you may revisit your dashboard plan to update a given feature (for example, at the beginning of the project you were confident you would use a given plot to display an insight but subsequently you used another plot type).
-* How were data insights communicated to technical and non-technical audiences?
-* Explain how the dashboard was designed to communicate complex data insights to different audiences. 
+
+The dashboard was designed to be visually appealing, with a heavy set of key insights and charts to display valuable information.
+
+A consistent blue-teal colour scheme was applied to the dashboard to reduce visual clutter and maintain a clean, cohesive look across all visual elements. This choice not only improves readability, especially in a data rich interfaces, but also supports accessibility as blue-teal tones are generally distinguishable for individuals with common types of colour blindness. This layout enhances the user experience. 
+
+The dashboard design did not replicate the wireframe design in full. After metrics had been created, when it came to placement of the metrics using the wireframe guideline, through review, adjustments were made to ensure readbaility and reduce clutter. Further metrics were created as previous ones did not fit well with the design i wanted or added visual clutter. 
+
+**Online Retail Dashboard** 
+
+This is the main dashboard that represents the summary of the data for example, total revenue, invoices, quantity sold, total number of customers.
+
+Visualisations on the dashboard that was chosen to provide valuable insights are listed below:
+
+- Monthly Revenue and Quantity Trend Analysis (Bar+Line Chart)
+- Top 6 Product Sales Trend Analysis (Line Chart)
+- Revenue Regions (Map)
+- Quarterly Rev & Quantity (Packed Bubbles Chart)
+- Top 6 Customers by Revenue (Bar Chart)
+
+All charts have clear titles, labels, and legends to ensure that users can easily understand the information being presented. Interactive elements, such as filters and tooltips, allow users to explore the data in more detail and gain deeper insights.
+
+Worksheet list below:
+
+-  Revenue Regions
+- Quarterly Rev & Quantity
+- Monthly Revenue Trend Analysis
+- Top 6 Product Sales Trend Analysis
+- Top 6 Customers by Quantity
+- Top 6 Customers by Revenue
+- Total Revenue
+- Total Quantity
+- Total Customers
+- Invoice Count
+- Top 6 Customers - Quantity
+- Top 6 Customers - Rev
+- Monthly Revenue and Quantity Trend Analysis
+
+Dashboard list:
+
+- Online Retail Dashboard
+![alt text](dashboard/Dashboard.png)
 
 ## Kanban Board
 -  You can find the project board [here](https://github.com/users/mobess12/projects/3/views/1)
@@ -188,7 +225,7 @@ You can find this methodology being used in the screengrab "KanBan_4.PNG" which 
 * What new skills or tools do you plan to learn next based on your project experience? 
 
 ## Deployment
-### Heroku
+### Tableau
 
 * The App live link is: https://YOUR_APP_NAME.herokuapp.com/ 
 * Set the runtime.txt Python version to a [Heroku-20](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version.
@@ -226,6 +263,9 @@ You can find this methodology being used in the screengrab "KanBan_4.PNG" which 
 - Co-Pilot
 - Facilitators
 - Colleagues
+- VSCode
+- Github
+- Tableau
 
 ## Acknowledgements (optional)
 - Vasi

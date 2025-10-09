@@ -71,15 +71,19 @@ Additionally, validation for these hypotheses will include visualisations and co
 1. Data Collection
     - Gather the dataset from Kaggle
     - Unzip folder and extract contents to be imported into VSCode
-2. Data Cleaning and Preprocessing
+2.  Ethical, Legal and Social Implications
+    - Provide the implications and importance of each element.
+3. Data Cleaning and Preprocessing
     - Investigate dataset on Microsoft Excel
     - Handle null values, remove duplicates, and correct data types to appropriate ones 
     - Remove irrelevant data (e.g., transactions with negative quantities, product descriptions that are not products such as "damages and ?")
     - Create new features Total Transaction Value (Quantity*UnitPrice)
-3. Save the cleaned data to a new CSV file
+    - Review
+4. Save the cleaned data to a new CSV file
     - Save cleaned dataset as processed data
     - Use descriptive statistics to understand the data
-4. Explore Data and Visualise
+    - Review
+5. Explore Data and Visualise
     - Statistics
     - Probability
     - Create visualisations based on sales, customers and products to identify trends and patterns for key insights, conclusions, recommendations and improvements
@@ -88,13 +92,19 @@ Additionally, validation for these hypotheses will include visualisations and co
     - Commentary on ethical and societal considerations for each hypothesis
     - Test hypotheses using T Test
     - Store still images in the appropriate folders (plotly charts)
-5. Dashboard Creation
+    - Review
+6. Dashboard Creation
     - Use a wireframe and Tableau to plan and create an interactive dashboard that includes key metrics and visualisations in line with the hypotheses
     - Publish Dashboard
     - Store screengrabs of the wireframe and dashboard in the appropriate folders
-6. README
+    - Review
+7. README
     - Write comprehensive README document
     - Store KanBan phases images in the appropriate folder
+    - Review
+8. Submit Project
+    - Review 
+    - Submit project
 
 ## The rationale to map the business requirements to the Data Visualisations
 

@@ -209,7 +209,7 @@ Dashboard list:
 
 ## Kanban Board
 -  You can find the project board [here](https://github.com/users/mobess12/projects/3/views/1)
-- You can find multiple screengrabs of the project board [here](C:\Users\moby1\Documents\Capstone-Project\Online_Retail_Analysis_Capstone_Project\assets\kanban)
+- You can find multiple screengrabs of the project board within the "kanban" folder which is located in the "assets" folder.
 
 **MoSCoW**
 
@@ -223,7 +223,10 @@ The MoSCoW method was used in this project as a framework for prioritising tasks
 
 - **Won't Have**: Features that are not a priority for the current timeframe.
 
-You can find this methodology being used [here](C:\Users\moby1\Documents\Capstone-Project\Online_Retail_Analysis_Capstone_Project\assets\kanban\KanBan_4.png)
+You can find this methodology being used for issues [here](https://github.com/users/mobess12/projects/3/views/2?visibleFields=%5B%22Title%22%2C%22Assignees%22%2C%22Status%22%2C%22Labels%22%5D)
+
+Preview:
+![alt text](assets/kanban/KanBan_4.png) 
 
 ## Unfixed Bugs
 - I don't have any unfixed bugs in this project to my knowledge.
@@ -241,8 +244,6 @@ You can find this methodology being used [here](C:\Users\moby1\Documents\Capston
 ### Tableau
 
 - You can find a link to our dashboard [here] DO NOT FORGET TO LINK URL 
-
-
 
 ## Main Data Analysis Libraries
 

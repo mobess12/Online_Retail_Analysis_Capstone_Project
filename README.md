@@ -90,6 +90,7 @@ Additionally, validation for these hypotheses will include visualisations and co
     - Store still images in the appropriate folders (plotly charts)
 5. Dashboard Creation
     - Use a wireframe and Tableau to plan and create an interactive dashboard that includes key metrics and visualisations in line with the hypotheses
+    - Publish Dashboard
     - Store screengrabs of the wireframe and dashboard in the appropriate folders
 6. README
     - Write comprehensive README document

@@ -107,6 +107,21 @@ To validate the hypothesis, a ttest will be used to obtain the P Value. This wil
 
 Additionally, validation for these hypotheses will include visualisations and commentary within the data visualisations Jupyter Notebook. Commentary will include, key insights, conclusions, recommendations and improvements, and ethical and societal considerations.
 
+Project hypotheses outcome:
+
+- Hypothesis 1:
+
+    -  **False** as non-UK customers spend more per transaction and show greater variability in spending.
+
+- Hypothesis 2:
+
+    - **False** as higher average spending occurs on weekdays.
+
+- Hypothesis 3:
+
+    - **True** as there is a difference in average transaction value between holiday and non-holiday months.
+
+
 ## Project Plan
 
 1. Data Collection

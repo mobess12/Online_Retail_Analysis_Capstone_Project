@@ -2,6 +2,38 @@
 
 Online Retail Analysis is a data driven tool designed to support business decision making through comprehensive analysis and visualisation. Built with Python and key libraries including Pandas, Plotly, Seaborn, Matplotlib, SKLearn, Tableau, the tool ingests raw CSV data, processes it efficiently, and delivers actionable insights via interactive visualisations in both Jupyter Notebook and Tableau.
 
+
+## **Application of Analytics in the Domain**
+
+Domain: E-commerce / Retail
+
+Data analytics plays a critical role in the e-commerce/ online retail industry by enabling businesses to make informed, data driven decisions. This is through helping businesses understand customer behaviour, optimise inventory, and increase sales. In this dataset, which contains transactional data for an online retail store, analytics was applied to:
+
+
+- Analyse seasonal trends to understand demand and plan promotional campaigns.
+
+- Identify top-selling products to support marketing and stock decisions.
+
+- Segment customers using RFM (Recency, Frequency, Monetary) analysis to target high value customers more effectively, as well as re-engagement strategies for at risk customer.
+
+- Analyse regional sales patterns to identify high performing markets and opportunities for geographic expansion.
+
+Through the analysis of transaction history, customer behaviour, and website interactions, retailers can uncover sales and purchasing patterns, segment audiences, and optimise product offerings. This leads to more personalised marketing, improved customer retention, smarter inventory management, and enhanced sales forecasting. 
+
+Ultimately, data analytics helps online retailers increase efficiency, reduce costs, and deliver a better shopping experience. This gives the retailer a competitive advantage in a fast paced digital market.
+
+## **AI Solutions and Impact**
+
+To support the analysis, generative AI tools such as GitHub Copilot and ChatGPT were used to speed up data cleaning, create exploratory visualisations, and generate feature engineering ideas.
+
+For example:
+
+- Copilot suggested efficient pandas functions to handle missing values and date conversions.
+
+- ChatGPT was used to brainstorm general ideation and the development of customer segmentation strategies such as RFM cluster analysis by generating ideas to segment and engage different customer types effectively.
+
+These AI tools improved productivity, reduced the time spent on repetitive coding tasks, and supported ideation by providing multiple analytical approaches. This led to faster, more accurate insights into revenue performance, customer behaviour and product management.
+
 # ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 ## 📘 Table of Contents
@@ -206,6 +238,7 @@ Data Visualisation Notebook:
 - ttest_1samp was used for t testing to obtain p value and t-statistics.
 - Hisplot chart used to display distribution of transaction values.
 - Matplotlib line+bar chart was used for monthly trend analysis.
+- Matplotlib and y_pred was used to create a monthly trend analysis with linear trend line.
 - Plotly pie chart was used for sales by day analysis.
 - groupby was used in various analysis to group elements together such as CustomerID and Quantity.
 - Subplots and axes was used to create 3 visualisation on 1 line displaying top 6 customers by quantity, unit price and then total transaction value.

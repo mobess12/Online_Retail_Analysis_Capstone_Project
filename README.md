@@ -8,20 +8,21 @@ Online Retail Analysis is a data driven tool designed to support business decisi
 
 1. [Dataset Content](#dataset-content)
 2. [Business Requirements](#business-requirements)
-3. [Hypothesis and How to Validate?](#hypothesis-and-how-to-validate)
-4. [Project Plan](#project-plan)
-5. [Rationale for Visualisations](#rationale-for-visualisations)
-6. [Analysis Techniques Used](#analysis-techniques-used)
-7. [Ethical Considerations](#ethical-considerations)
-8. [Wireframe](#wireframe)
-9. [Dashboard Design](#dashboard-design)
-10. [KanBan Board](#kanban-board)
-11. [Unfixed Bugs](#unfixed-bugs)
-12. [Development Roadmap](#development-roadmap)
-13. [Deployment](#deployment)
-14. [Main Data Analysis Libraries](#main-data-analysis-libraries)
-15. [Credits](#credits)
-16. [Acknowledgements](#acknowledgements)
+3. [Business Goals](#business-goals)
+4. [Hypothesis and How to Validate?](#hypothesis-and-how-to-validate)
+5. [Project Plan](#project-plan)
+6. [Rationale for Visualisations](#rationale-for-visualisations)
+7. [Analysis Techniques Used](#analysis-techniques-used)
+8. [Ethical Considerations](#ethical-considerations)
+9. [Wireframe](#wireframe)
+10. [Dashboard Design](#dashboard-design)
+11. [KanBan Board](#kanban-board)
+12. [Unfixed Bugs](#unfixed-bugs)
+13. [Development Roadmap](#development-roadmap)
+14. [Deployment](#deployment)
+15. [Main Data Analysis Libraries](#main-data-analysis-libraries)
+16. [Credits](#credits)
+17. [Acknowledgements](#acknowledgements)
 
 ## Dataset Content
 
@@ -66,10 +67,30 @@ Column Descriptors:
 
 - Leverage sales data to make informed inventory decisions prioritising products to stock and identifying slow moving items for discontinuation.
 
+## Business Goals
+
+- **Increase Sales Growth**
+    - Implement strategies to increase revenue during periods of low customer activity.
+
+- **Targeted and Personalised Marketing**
+    - Use customer data to deliver relevant campaigns that drive engagement.
+
+- **Customer Retention & Acquisition**
+    - Strengthen loyalty among existing customers while attracting new ones through focused initiatives.
+
+- **Inventory and Supply Chain Optimisation**
+    - Enhance efficiency by aligning stock levels and logistics with demand trends.
+
+- **Sustainable Growth**
+    - Leverage analytics to inform long term strategic decisions and business development.
+
+- **Regional market expansion**
+    - Identify and enter high potential geographic markets to grow brand presence.
+
 
 ## Hypothesis and how to validate?
 
-Hypothesis 1 - Customers in the United Kingdom spend more than those not in the United Kingdom per transaction
+Hypothesis 1 - Customers in the United Kingdom spend more than those not in the United Kingdom per transaction.
 
 - Using a boxplot is effective because it provides a clear visual comparison of distribution, central tendency, and variability between the two groups.
 
@@ -106,9 +127,13 @@ Additionally, validation for these hypotheses will include visualisations and co
     - Probability
     - Create visualisations based on sales, customers and products to identify trends and patterns for key insights, conclusions, recommendations and improvements
     - Create RFM cluster analysis to identify customer categories
+    - Test hypotheses using T Test
     - Create visualisations in line with hypotheses, detailing key insights, conclusions, recommendations and improvements.
     - Commentary on ethical and societal considerations for each hypothesis
-    - Test hypotheses using T Test
+    - Overall conclusion
+    - Ethical, legal and social considerations
+    - Final thoughts
+    - Future Developments
     - Store still images in the appropriate folders (plotly charts)
     - Review
 6. Dashboard Creation
@@ -126,11 +151,11 @@ Additionally, validation for these hypotheses will include visualisations and co
 
 ## The rationale to map the business requirements to the Data Visualisations
 
-- Enhance Customer Retention and Engagement
-- Enhance Marketing and Strategy for High Value Customers (loyalty & Reward Schemes)
-- Optimise Product Offerings and Inventory Management
-- Drive Expansion To Other Regions
-- Drive Strategic Sales Growth
+- Enhance Customer Retention and Engagement.
+- Enhance Marketing and Strategy for High Value Customers (loyalty & Reward Schemes).
+- Optimise Product Offerings and Inventory Management.
+- Drive Expansion To Other Regions.
+- Drive Strategic Sales Growth.
 
 These business objectives are achieved by thoroughly understanding the data through processing and visualisation. This approach provides actionable insights and potential solutions to meet the business requirements.
 
@@ -142,49 +167,56 @@ In the retail industry, it is common practice to analyse sales trends, seasonali
 
 ETL Notebook:
 
-- df.duplicated().sum() was used to check for duplicate data
-- df.drop_duplicates() was used to drop duplicate data
-- Converted datatypes to the appropriate types
-- df_info was used to provide an overview of the dataset, list of columns and missing values
-- dropna was used to remove missing values and isnull().sum() to check column for missing values
-- Added a new column in the dataset which consisted of Quantity * UnitPrice
-- info() to provide a summary of the dataset
-- str.contains(r'\?' was used to remove cells which included special characters
-- str.contains(r'[a-z] was used to remove cells which included lower case letters
-- stats_summary was used to provide descriptive statistics
-- to_csv was used to save the clean dataset
-- pd.read_csv was used to load the clean dataset
+- df.duplicated().sum() was used to check for duplicate data.
+- df.drop_duplicates() was used to drop duplicate data.
+- Converted datatypes to the appropriate types.
+- df_info was used to provide an overview of the dataset, list of columns and missing values.
+- dropna was used to remove missing values and isnull().sum() to check column for missing values.
+- Added a new column in the dataset which consisted of Quantity * UnitPrice.
+- info() to provide a summary of the dataset.
+- str.contains(r'\?' was used to remove cells which included special characters.
+- str.contains(r'[a-z] was used to remove cells which included lower case letters.
+- stats_summary was used to provide descriptive statistics.
+- to_csv was used to save the clean dataset.
+- pd.read_csv was used to load the clean dataset.
 
 Data Visualisation Notebook:
 
-- describe() was used for statistical summary
+- describe() was used for statistical summary.
 - Matplotlib was used to plot a pie chart for probability findings.
-- ttest_1samp was used for t testing to obtain p value and t-statistics
-- Hisplot chart used to display distribution of transaction values
-- Matplotlib line+bar chart was used for monthly trend analysis
-- Plotly pie chart was used for sales by day analysis
-- groupby was used in various analysis to group elements together such as CustomerID and Quantity
-- Subplots and axes was used to create 3 visualisation on 1 line displaying top 6 customers by quantity, unit price and then total transaction value
-- Kmeans.fit_predict was used for RFM clustering
-- Scatterplots was used for popular products charts quantity and total transaction value
-- Plotly line chart was used to display the top 6 product sales trend over 13 months
-- ttest_ind was used to validate all 3 hypotheses
-- Boxplot was used to display Customer Spending Comparison: UK vs Non-UK
-- Bar chart was used to display Average Revenue: Weekdays vs Weekends
-- Bar chart was used to display Average Transaction Value: Holiday vs Non-Holiday Months
+- ttest_1samp was used for t testing to obtain p value and t-statistics.
+- Hisplot chart used to display distribution of transaction values.
+- Matplotlib line+bar chart was used for monthly trend analysis.
+- Plotly pie chart was used for sales by day analysis.
+- groupby was used in various analysis to group elements together such as CustomerID and Quantity.
+- Subplots and axes was used to create 3 visualisation on 1 line displaying top 6 customers by quantity, unit price and then total transaction value.
+- Kmeans.fit_predict was used for RFM clustering.
+- Scatterplots was used for popular products charts quantity and total transaction value.
+- Plotly line chart was used to display the top 6 product sales trend over 13 months.
+- ttest_ind was used to validate all 3 hypotheses.
+- Boxplot was used to display Customer Spending Comparison: UK vs Non-UK.
+- Bar chart was used to display Average Revenue: Weekdays vs Weekends.
+- Bar chart was used to display Average Transaction Value: Holiday vs Non-Holiday Months.
 
 I structured the data analysis techniques to include as much variation as possible from the LMS i.e. charts were used across the board of seaborn, matplotlib and plotly. I ensured that i had something to include for each method as well as picking out the best techniques related to what i wanted to produce.
 
 I did decide against an area chart for the customers section as it visually looked messy, therefore i opted for a simple bar charts. bar charts gave me the visual i needed, very simple, clear and concise.
 
+I did decide against creating a visual representation of the RFM cluster of customers in addition to the tabled results. a visualisation was created, however the visual did not bring much inform forward by just looking at it. Therefore i decided to summarise this section with key insights, conclusion, suggest recommendations and improvements, and ethical and social considerations.
+
 I did have some challenges in deciding what types of charts i wanted to use for my confirmed sections within the data_visualisation notebook. However i used AI to provide me with the benefits and downfalls of using particular charts. I then was able to make a decision on the best fit charting for the circumstance.
 
-I used AI with ideation in relation to understanding what type of elements are heavily viewed for an online retail dataset. I was then able to build my business requirements and hypotheses. I also used AI for deciding what areas of online retail i wanted to produce visualisations for i.e. what is the key importance or insight. I also used AI to understand some coding scripts to gain some knowledge and better understanding on how it works i.e. ttest.
+I used AI with ideation in relation to understanding what elements are heavily viewed for an online retail business. I was also able to research and obtain information in regards to business goals and objectives ideas. I was then able to build my business requirements and hypotheses. Using AI, i was able to decide what visualisations i wanted to create for an online retailer. 
+
+I used AI to understand some coding scripts to gain some knowledge and better understanding on how it works such as ttest and probability.
+
+Some written content was refined using AI to achieve a more formal and academic style.
 
 ## Ethical considerations
+
 - The online retail dataset came from Kaggle and does not have any legal or societal issues. There was no personal data within the dataset which could expose or identify anything personal to a particular individual.
-- Within the ETL notebook, i have included ethical, legal and social implications for data handling
-- Within the data_visualisation notebook, i have included ethical and societal considerations commentary under each hypothesis and RFM customer analysis
+- Within the ETL notebook, i have included ethical, legal and social implications for data handling.
+- Within the data_visualisation notebook, i have included ethical and societal considerations commentary under each hypothesis and RFM customer analysis.
 
 ## Wireframe
 
@@ -208,11 +240,11 @@ This is the main dashboard that represents the summary of the data for example, 
 
 Visualisations on the dashboard that was chosen to provide valuable insights are listed below:
 
-- Monthly Revenue and Quantity Trend Analysis (Bar+Line Chart)
-- Top 6 Product Sales Trend Analysis (Line Chart)
-- Revenue Regions (Map)
-- Quarterly Rev & Quantity (Packed Bubbles Chart)
-- Top 6 Customers by Revenue (Bar Chart)
+- Monthly Revenue and Quantity Trend Analysis (Bar+Line Chart).
+- Top 6 Product Sales Trend Analysis (Line Chart).
+- Revenue Regions (Map).
+- Quarterly Rev & Quantity (Packed Bubbles Chart).
+- Top 6 Customers by Revenue (Bar Chart).
 
 All charts have clear titles, labels, and legends to ensure that users can easily understand the information being presented. Interactive elements, such as filters and tooltips, allow users to explore the data in more detail and gain deeper insights.
 
@@ -234,7 +266,7 @@ Worksheet list below:
 
 Dashboard list:
 
-- Online Retail Dashboard Preview
+- Online Retail Dashboard Preview:
 ![alt text](dashboard/Dashboard.png)
 
 ## Kanban Board
@@ -264,10 +296,15 @@ Preview:
 ## Development Roadmap
 
 - I did not encounter any major issues. I had offered out my help to others and luckily for me, student colleagues offered me advice and provided further knowledge if i needed it. 
+
 - Given I have come across issues in the past through this bootcamp, a lot of the issues that may have arised were rectified and newly learnt prior. Therefore referring back to experience, notes, LMS content and Google and colleagues in these situations was the solution.
+
 - I have never done a wireframe design prior to this project, however I asked for advice off a colleague which essentially gave me the knowledge to build a customer wireframe.
+
 - I have never created a full Tableau dashboard prior to this project, however have been involved in some elements of it and have knowledge of Power BI. In this project I chose to use Tableau to challenge myself and gain experience in another dashboarding tool. I built the entirety of the dashboard on my own and using resources such as YouTube and Google as a FAQ engines aided where it was needed.
+
 - I want to experience more with VSCode and Tableau as I can see the benefits it can bring to data analytics. 
+
 - I aim to continue practicing python on VSCode and building small to medium projects, while using Tableau to produce dashboards. This will give me more hands on experience and skill development for the future. 
 
 ## Deployment

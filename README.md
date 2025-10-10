@@ -59,9 +59,11 @@ These AI tools improved productivity, reduced the time spent on repetitive codin
 
 ## Dataset Content
 
-Online Retail Dataset can be found [here]( https://www.kaggle.com/datasets/abhishekrp1517/online-retail-transactions-dataset)
+Online Retail Dataset can be found [HERE]( https://www.kaggle.com/datasets/abhishekrp1517/online-retail-transactions-dataset)
 
-The online retail dataset contains transactional data of 13 months, including product details, quantities, prices, purchase timestamps, customer IDs, and country information. It can be used to analyse customer behavior, identify popular products, and support pricing and marketing strategies. It's suitable for data analysis and machine learning. 
+The online retail dataset contains transactional data spanning 13 months, including detailed information on products, quantities, prices, purchase timestamps, customer identifiers, and geographic location. 
+
+This dataset is well-suited for analysing customer behaviour, identifying popular products, and informing pricing and marketing strategies. Furthermore, it provides a robust foundation for data analysis and machine learning applications.
 
 Column Descriptors:
 
@@ -135,9 +137,9 @@ Column Descriptors:
 
 - Using a bar chart to is a great choice because it clearly summarizes and compares average transaction values across categories.
 
-To validate the hypothesis, a ttest will be used to obtain the P Value. This will help understand whether they are true or false.
+To validate the hypothesis, a t-test will be conducted to obtain the p-value, facilitating the determination of its statistical significance. 
 
-Additionally, validation for these hypotheses will include visualisations and commentary within the data visualisations Jupyter Notebook. Commentary will include, key insights, conclusions, recommendations and improvements, and ethical and societal considerations.
+Additionally, the validation process will be supported by visualisations and accompanying commentary within the data visualisations Jupyter Notebook. This commentary will encompass key insights, conclusions, recommendations for improvement, as well as considerations of ethical and societal implications.
 
 Project hypotheses outcome:
 
@@ -203,14 +205,18 @@ Project hypotheses outcome:
 ## The rationale to map the business requirements to the Data Visualisations
 
 - Enhance Customer Retention and Engagement.
+
 - Enhance Marketing and Strategy for High Value Customers (loyalty & Reward Schemes).
+
 - Optimise Product Offerings and Inventory Management.
+
 - Drive Expansion To Other Regions.
+
 - Drive Strategic Sales Growth.
 
-These business objectives are achieved by thoroughly understanding the data through processing and visualisation. This approach provides actionable insights and potential solutions to meet the business requirements.
+These business objectives are accomplished through comprehensive data processing and visualisation, enabling a deep understanding of the underlying information. This methodology facilitates the generation of actionable insights and the identification of potential solutions aligned with the business requirements.
 
-In the retail industry, it is common practice to analyse sales trends, seasonality, customer spending behaviours, region exposure and product preferences to inform decision making and drive business success.
+In the retail industry, the analysis of sales trends, seasonality, customer spending behaviours, regional exposure, and product preferences is a standard practice employed to inform strategic decision making and enhance business performance.
 
 ## Analysis techniques used
 
@@ -219,68 +225,96 @@ In the retail industry, it is common practice to analyse sales trends, seasonali
 ETL Notebook:
 
 - df.duplicated().sum() was used to check for duplicate data.
+
 - df.drop_duplicates() was used to drop duplicate data.
+
 - Converted datatypes to the appropriate types.
+
 - df_info was used to provide an overview of the dataset, list of columns and missing values.
+
 - dropna was used to remove missing values and isnull().sum() to check column for missing values.
+
 - Added a new column in the dataset which consisted of Quantity * UnitPrice.
+
 - info() to provide a summary of the dataset.
+
 - str.contains(r'\?' was used to remove cells which included special characters.
+
 - str.contains(r'[a-z] was used to remove cells which included lower case letters.
+
 - stats_summary was used to provide descriptive statistics.
+
 - to_csv was used to save the clean dataset.
+
 - pd.read_csv was used to load the clean dataset.
 
 Data Visualisation Notebook:
 
 - describe() was used for statistical summary.
+
 - Matplotlib was used to plot a pie chart for probability findings.
+
 - ttest_1samp was used for t testing to obtain p value and t-statistics.
+
 - Hisplot chart used to display distribution of transaction values.
+
 - Matplotlib line+bar chart was used for monthly trend analysis.
+
 - Matplotlib and y_pred was used to create a monthly trend analysis with linear trend line.
+
 - Plotly pie chart was used for sales by day analysis.
+
 - groupby was used in various analysis to group elements together such as CustomerID and Quantity.
+
 - Subplots and axes was used to create 3 visualisation on 1 line displaying top 6 customers by quantity, unit price and then total transaction value.
+
 - Kmeans.fit_predict was used for RFM clustering.
+
 - Scatterplots was used for popular products charts quantity and total transaction value.
+
 - Plotly line chart was used to display the top 6 product sales trend over 13 months.
+
 - ttest_ind was used to validate all 3 hypotheses.
+
 - Boxplot was used to display Customer Spending Comparison: UK vs Non-UK.
+
 - Bar chart was used to display Average Revenue: Weekdays vs Weekends.
+
 - Bar chart was used to display Average Transaction Value: Holiday vs Non-Holiday Months.
 
-I structured the data analysis techniques to include as much variation as possible from the LMS i.e. charts were used across the board of seaborn, matplotlib and plotly. I ensured that i had something to include for each method as well as picking out the best techniques related to what i wanted to produce.
+I structured the data analysis using a diverse range of techniques drawn from the LMS, incorporating visualisations from libraries such as Seaborn, Matplotlib, and Plotly. Care was taken to apply an appropriate method for each analytical objective, ensuring both variety and relevance in the techniques selected to support the insights being presented.
 
-I did decide against an area chart for the customers section as it visually looked messy, therefore i opted for a simple bar charts. bar charts gave me the visual i needed, very simple, clear and concise.
+I chose not to use an area chart for the customer analysis section, as it resulted in a cluttered and less interpretable visual. Instead, I opted for bar charts, which provided a clearer, more concise representation of the data and effectively communicated the intended insights.
 
-I did decide against creating a visual representation of the RFM cluster of customers in addition to the tabled results. a visualisation was created, however the visual did not bring much inform forward by just looking at it. Therefore i decided to summarise this section with key insights, conclusion, suggest recommendations and improvements, and ethical and social considerations.
+In the summary statistics section, the histogram visualisation of the t-test results was omitted, as it provided minimal visual value and did not contribute meaningful insights.
 
-I did have some challenges in deciding what types of charts i wanted to use for my confirmed sections within the data_visualisation notebook. However i used AI to provide me with the benefits and downfalls of using particular charts. I then was able to make a decision on the best fit charting for the circumstance.
+I chose not to include a visual representation of the RFM customer clusters alongside the tabulated results. Although an initial visualisation was created, it did not convey additional meaningful insights beyond what was already presented in the data table. As a result, I opted to summarise this section through key insights, conclusions, and evidence based recommendations. Additionally, ethical and social considerations were included to provide a more comprehensive interpretation of the analysis.
 
-I did encounter some challenges with Figma as I have never used it before. This was overcome by a colleague simply explaining how Figma works, which gave me the understanding and confidence to build a wireframe manually.
+I encountered some challenges when selecting appropriate chart types for specific sections within the data visualisation notebook. To support this decision making process, I utilised AI tools to evaluate the advantages and limitations of various chart types. This allowed me to make informed choices regarding the most suitable visualisation methods for effectively communicating the insights in each context.
 
-I used AI with ideation in relation to understanding what elements are heavily viewed for an online retail business. I was also able to research and obtain information in regards to business goals and objectives ideas. I was then able to build my business requirements and hypotheses. Using AI, i was able to decide what visualisations i wanted to create for an online retailer. 
+I encountered initial challenges when using Figma, as I had no prior experience with the tool. However, with guidance from a colleague who provided a clear explanation of its functionality, I was able to develop a sufficient understanding and the confidence needed to manually construct a wireframe for the project.
 
-I used AI to understand some coding scripts to gain some knowledge and better understanding on how it works such as ttest and probability.
+AI was utilised during the ideation phase to explore key elements commonly prioritised in online retail businesses. This supported my understanding of relevant business goals and objectives, which informed the development of appropriate business requirements and hypotheses. Additionally, AI tools facilitated the selection of suitable visualisation techniques aligned with the analytical needs of an online retail context.
 
-Some written content was refined using AI to achieve a more formal and academic style.
+AI tools were employed to support my understanding of specific coding scripts, particularly those related to statistical methods such as t-tests and probability. This enhanced my conceptual knowledge and provided clarity on the practical implementation of these techniques within the analytical process.
+
+Selected written content was refined with the support of AI tools to enhance clarity, coherence, and adherence to a formal academic writing style.
 
 ## Ethical considerations
 
-- The online retail dataset came from Kaggle and does not have any legal or societal issues. There was no personal data within the dataset which could expose or identify anything personal to a particular individual.
+- The online retail dataset, sourced from Kaggle, presents no legal or societal concerns, as it contains no personal data that could potentially identify or expose individual information. 
 
-- Within the ETL notebook, i have included ethical, legal and social implications for data handling.
+- The ETL notebook incorporates a dedicated section addressing the ethical, legal, and social implications associated with data handling practices.
 
-- Within the data_visualisation notebook, i have included ethical and societal considerations commentary under each hypothesis and RFM customer analysis.
+- The data_visualisation notebook includes commentary on ethical and societal considerations relevant to each hypothesis and the RFM customer analysis.
 
 ## Wireframe
 
-The dashboard wireframe was created in Figma to outline the layout for the dashboard. A search was conducted using "lookscout" in the community section, to be able to manually create a wireframe.
+The dashboard wireframe was developed using Figma to establish a preliminary layout for the dashboard. A search utilising the term “lookscout” within the community section informed the manual creation of the wireframe. 
 
-It includes key components, such as summary cards for quick key points and charts (line, bar, pie and map). This wireframe will serve as a guide only while designing the interactive dashboard. 
+Key components were incorporated, including summary cards for highlighting essential metrics, as well as various chart types such as line, bar, pie, and map visualisations. 
 
-As it is a guide only, it will act as a rough idea of how the dashboard should look. Therefore, The dashboard may not replicate this exact design when creating the dashboard and changes may occur.
+This wireframe functions solely as a conceptual guide to inform the design of the interactive dashboard. Given its provisional nature, the final dashboard may diverge from the wireframe, with modifications implemented during the development process as necessary.
 
 **Wireframe Design:**
 
@@ -331,7 +365,7 @@ Dashboard list:
 ![alt text](dashboard/Dashboard.png)
 
 ## Kanban Board
--  You can find the project board [here](https://github.com/users/mobess12/projects/3/views/1)
+-  You can find the project board [HERE](https://github.com/users/mobess12/projects/3/views/1)
 - You can find multiple screengrabs of the project board within the "kanban" folder which is located in the "assets" folder.
 
 **MoSCoW**
@@ -346,37 +380,57 @@ The MoSCoW method was used in this project as a framework for prioritising tasks
 
 - **Won't Have**: Features that are not a priority for the current timeframe.
 
-You can find this methodology being used for issues [here](https://github.com/users/mobess12/projects/3/views/2?visibleFields=%5B%22Title%22%2C%22Assignees%22%2C%22Status%22%2C%22Labels%22%5D)
+You can find this methodology being used for issues [HERE](https://github.com/users/mobess12/projects/3/views/2?visibleFields=%5B%22Title%22%2C%22Assignees%22%2C%22Status%22%2C%22Labels%22%5D)
 
 Preview:
 ![alt text](assets/kanban/KanBan_4.png) 
 
 ## Unfixed Bugs
 
-- I don't have any unfixed bugs in this project to my knowledge.
+- To the best of my knowledge, there are no unresolved bugs present in this project.
 
 ## Development Roadmap
 
-- I did not encounter any major issues. I had offered out my help to others and luckily for me, student colleagues offered me advice and provided further knowledge if i needed it. 
+- Throughout the project, I did not encounter any major issues. I proactively offered support to peers and, in turn, received valuable advice and insights from fellow students when needed. This collaborative environment significantly enhanced my learning experience.
 
-- Given I have come across issues in the past through this bootcamp, a lot of the issues that may have arised were rectified and newly learnt prior. Therefore referring back to experience, notes, LMS content and Google and colleagues in these situations was the solution.
+- Having previously encountered and resolved various technical challenges during the bootcamp, I was able to apply prior knowledge effectively in this project. I utilised past experiences, personal notes, LMS content, and online resources such as Google, along with peer support, to address any uncertainties that arose.
 
-- I have never done a wireframe design prior to this project, however I asked for advice off a colleague which essentially gave me the knowledge to manually build a custom wireframe.
+- One area of personal development involved wireframe design, which I had not undertaken before. With guidance from a colleague, I acquired the foundational knowledge required to manually create a custom wireframe for the project.
 
-- I have never created a full Tableau dashboard prior to this project, however have been involved in some elements of it and have knowledge of Power BI. In this project I chose to use Tableau to challenge myself and gain experience in another dashboarding tool. I built the entirety of the dashboard and using resources such as YouTube and Google as FAQ engines aided where it was needed.
+- Similarly, although I had not previously built a complete Tableau dashboard, I was familiar with certain elements through past experience and had prior exposure to Power BI. I deliberately chose Tableau for this project to challenge myself and expand my skillset in an industry relevant tool. I independently developed the entire dashboard and relied on resources such as YouTube tutorials and online documentation to troubleshoot and refine my work.
 
-- I want to experience more with VSCode and Tableau as I can see the benefits it can bring to data analytics. Additionally, I know Tableau is widely used in most industries, therefore gaining more experience is essential for me.
+- Looking ahead, I intend to further explore and gain proficiency in both VSCode and Tableau, as I recognise the significant value they offer in data analytics. Tableau, in particular, is widely adopted across various industries, making continued practice essential for my professional development.
 
-- I aim to continue practicing python on VSCode and building small to medium projects, while using Tableau to produce dashboards. This will give me more hands on experience and skill development for the future. 
+- To build on these skills, I plan to continue developing small to medium-sized projects in Python using VSCode, alongside creating interactive dashboards in Tableau. This ongoing practice will provide practical experience and support my long term growth in the field of data analytics.
 
 ## Deployment
 ### Tableau
 
-- You can find a link to our dashboard [here] DO NOT FORGET TO LINK URL 
+Overview of dashboard creation to publishing:
+
+1. Connect data by importing the dataset into Tableau.
+
+2. Dataset was already clean, therefore already prepared.
+
+3. Create worksheets and build individual visualisations on separate worksheets.
+
+4. Design the dashboard by combining, arranging and resizing visualisations from multiple worksheets into a dashboard workbook. 
+
+5. Add interactivity by incorporating filters, tooltips and more to enable user interaction and dynamic data exploration.
+
+6. Review the dashboard layout and interactivity, making adjustments for responsiveness and user experience.
+
+7. Publish the dashboard to Tableau Public by signing into my account and uploading the workbook.
+
+8. Share the dashboard URL in README to provide access to stakeholders.
+
+- You can find a link to the dashboard [HERE](https://public.tableau.com/views/online_retail_dashboard_17601091397500/OnlineRetailDashboard?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+Preview: ![alt text](dashboard/Dashboard_Tableau.png)
 
 ## Version Control
 
-GitHub was used for version control to track changes and manage the development history of the project. Regular commits were made after every section addition or small changes with descriptive comments. This ensured that changes were recorded systematically, earlier versions could be restored if needed. 
+GitHub was used for version control to track changes and manage the development history of the project. Regular commits (60+ commits) were made after every section addition or small changes with descriptive comments. It ensured that changes were recorded systematically, earlier versions could be restored if needed. 
 
 Git commands used:
 

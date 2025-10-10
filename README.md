@@ -20,9 +20,10 @@ Online Retail Analysis is a data driven tool designed to support business decisi
 12. [Unfixed Bugs](#unfixed-bugs)
 13. [Development Roadmap](#development-roadmap)
 14. [Deployment](#deployment)
-15. [Main Data Analysis Libraries](#main-data-analysis-libraries)
-16. [Credits](#credits)
-17. [Acknowledgements](#acknowledgements)
+15. [Version Control](#version-control)
+16. [Main Data Analysis Libraries](#main-data-analysis-libraries)
+17. [Credits](#credits)
+18. [Acknowledgements](#acknowledgements)
 
 ## Dataset Content
 
@@ -90,15 +91,15 @@ Column Descriptors:
 
 ## Hypothesis and how to validate?
 
-Hypothesis 1 - Customers in the United Kingdom spend more than those not in the United Kingdom per transaction.
+**Hypothesis 1** - Customers in the United Kingdom spend more than those not in the United Kingdom per transaction.
 
 - Using a boxplot is effective because it provides a clear visual comparison of distribution, central tendency, and variability between the two groups.
 
-Hypothesis 2 - Average sales are the same on weekdays and weekends.
+**Hypothesis 2** - Average sales are the same on weekdays and weekends.
 
 - Using a bar chart is effective because it provides a simple and direct visual comparison of group means, which is exactly what the hypothesis is testing. 
 
-Hypothesis 3 - Seasonal spend - Holiday (Black Friday and Christmas) months have a different average transaction value.
+**Hypothesis 3** - Seasonal spend - Holiday (Black Friday and Christmas) months have a different average transaction value.
 
 - Using a bar chart to is a great choice because it clearly summarizes and compares average transaction values across categories.
 
@@ -107,6 +108,7 @@ To validate the hypothesis, a ttest will be used to obtain the P Value. This wil
 Additionally, validation for these hypotheses will include visualisations and commentary within the data visualisations Jupyter Notebook. Commentary will include, key insights, conclusions, recommendations and improvements, and ethical and societal considerations.
 
 ## Project Plan
+
 1. Data Collection
     - Gather the dataset from Kaggle
     - Unzip folder and extract contents to be imported into VSCode
@@ -137,6 +139,7 @@ Additionally, validation for these hypotheses will include visualisations and co
     - Store still images in the appropriate folders (plotly charts)
     - Review
 6. Dashboard Creation
+    - Create wireframe using Figma
     - Use a wireframe and Tableau to plan and create an interactive dashboard that includes key metrics and visualisations in line with the hypotheses
     - Publish Dashboard
     - Store screengrabs of the wireframe and dashboard in the appropriate folders
@@ -206,6 +209,8 @@ I did decide against creating a visual representation of the RFM cluster of cust
 
 I did have some challenges in deciding what types of charts i wanted to use for my confirmed sections within the data_visualisation notebook. However i used AI to provide me with the benefits and downfalls of using particular charts. I then was able to make a decision on the best fit charting for the circumstance.
 
+I did encounter some challenges with Figma as I have never used it before. This was overcome by a colleague simply explaining how Figma works, which gave me the understanding and confidence to build a wireframe manually.
+
 I used AI with ideation in relation to understanding what elements are heavily viewed for an online retail business. I was also able to research and obtain information in regards to business goals and objectives ideas. I was then able to build my business requirements and hypotheses. Using AI, i was able to decide what visualisations i wanted to create for an online retailer. 
 
 I used AI to understand some coding scripts to gain some knowledge and better understanding on how it works such as ttest and probability.
@@ -215,12 +220,18 @@ Some written content was refined using AI to achieve a more formal and academic 
 ## Ethical considerations
 
 - The online retail dataset came from Kaggle and does not have any legal or societal issues. There was no personal data within the dataset which could expose or identify anything personal to a particular individual.
+
 - Within the ETL notebook, i have included ethical, legal and social implications for data handling.
+
 - Within the data_visualisation notebook, i have included ethical and societal considerations commentary under each hypothesis and RFM customer analysis.
 
 ## Wireframe
 
-- The dashboard wireframe was created in Figma to outline the layout for the dashboard. It includes key components, such as summary cards for quick key points and charts (line, bar, pie and map). This wireframe will serve as a guide while designing the interactive dashboard.
+The dashboard wireframe was created in Figma to outline the layout for the dashboard. A search was conducted using "lookscout" in the community section, to be able to manually create a wireframe.
+
+It includes key components, such as summary cards for quick key points and charts (line, bar, pie and map). This wireframe will serve as a guide only while designing the interactive dashboard. 
+
+As it is a guide only, it will act as a rough idea of how the dashboard should look. Therefore, The dashboard may not replicate this exact design when creating the dashboard and changes may occur.
 
 **Wireframe Design:**
 
@@ -232,7 +243,7 @@ The dashboard was designed to be visually appealing, with a heavy set of key ins
 
 A consistent blue-teal colour scheme was applied to the dashboard to reduce visual clutter and maintain a clean, cohesive look across all visual elements. This choice not only improves readability, especially in a data rich interfaces, but also supports accessibility as blue-teal tones are generally distinguishable for individuals with common types of colour blindness. This layout enhances the user experience. 
 
-The dashboard design did not replicate the wireframe design in full. After metrics had been created, when it came to placement of the metrics using the wireframe guideline, through review, adjustments were made to ensure readbaility and reduce clutter. Further metrics were created as previous ones did not fit well with the design i wanted or added visual clutter. 
+The dashboard design did not replicate the wireframe design in full. After metrics had been created, when it came to placement of the metrics using the wireframe guideline, through review, adjustments were made to ensure readbaility and reduce clutter. Further metrics were created as previous ones did not fit well with the design i wanted and added visual clutter. 
 
 **Online Retail Dashboard** 
 
@@ -245,6 +256,7 @@ Visualisations on the dashboard that was chosen to provide valuable insights are
 - Revenue Regions (Map).
 - Quarterly Rev & Quantity (Packed Bubbles Chart).
 - Top 6 Customers by Revenue (Bar Chart).
+- Summary cards included as text boxes; total revenue, quantity sold, total customers and invoice count
 
 All charts have clear titles, labels, and legends to ensure that users can easily understand the information being presented. Interactive elements, such as filters and tooltips, allow users to explore the data in more detail and gain deeper insights.
 
@@ -291,6 +303,7 @@ Preview:
 ![alt text](assets/kanban/KanBan_4.png) 
 
 ## Unfixed Bugs
+
 - I don't have any unfixed bugs in this project to my knowledge.
 
 ## Development Roadmap
@@ -299,11 +312,11 @@ Preview:
 
 - Given I have come across issues in the past through this bootcamp, a lot of the issues that may have arised were rectified and newly learnt prior. Therefore referring back to experience, notes, LMS content and Google and colleagues in these situations was the solution.
 
-- I have never done a wireframe design prior to this project, however I asked for advice off a colleague which essentially gave me the knowledge to build a customer wireframe.
+- I have never done a wireframe design prior to this project, however I asked for advice off a colleague which essentially gave me the knowledge to manually build a custom wireframe.
 
-- I have never created a full Tableau dashboard prior to this project, however have been involved in some elements of it and have knowledge of Power BI. In this project I chose to use Tableau to challenge myself and gain experience in another dashboarding tool. I built the entirety of the dashboard on my own and using resources such as YouTube and Google as a FAQ engines aided where it was needed.
+- I have never created a full Tableau dashboard prior to this project, however have been involved in some elements of it and have knowledge of Power BI. In this project I chose to use Tableau to challenge myself and gain experience in another dashboarding tool. I built the entirety of the dashboard and using resources such as YouTube and Google as FAQ engines aided where it was needed.
 
-- I want to experience more with VSCode and Tableau as I can see the benefits it can bring to data analytics. 
+- I want to experience more with VSCode and Tableau as I can see the benefits it can bring to data analytics. Additionally, I know Tableau is widely used in most industries, therefore gaining more experience is essential for me.
 
 - I aim to continue practicing python on VSCode and building small to medium projects, while using Tableau to produce dashboards. This will give me more hands on experience and skill development for the future. 
 
@@ -311,6 +324,16 @@ Preview:
 ### Tableau
 
 - You can find a link to our dashboard [here] DO NOT FORGET TO LINK URL 
+
+## Version Control
+
+GitHub was used for version control to track changes and manage the development history of the project. Regular commits were made after every section addition or small changes with descriptive comments. This ensured that changes were recorded systematically, earlier versions could be restored if needed. 
+
+Git commands used:
+
+- git add .
+- git commit -m "Descriptive Comment"
+- git push
 
 ## Main Data Analysis Libraries
 
@@ -320,7 +343,7 @@ Preview:
 - Seaborn
 - Plotly
 - SKLearn
-- Scipy.Stats
+- Scipy
 
 ## Credits 
 
@@ -338,6 +361,7 @@ Preview:
 - Colleagues
 - VSCode
 - Github
+- Figma
 - Tableau
 
 ## Acknowledgements 

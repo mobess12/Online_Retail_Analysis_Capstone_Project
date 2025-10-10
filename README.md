@@ -143,6 +143,7 @@ Project hypotheses outcome:
     - Statistics
     - Probability
     - Create visualisations based on sales, customers and products to identify trends and patterns for key insights, conclusions, recommendations and improvements
+    - Create monthly trend analysis visualisation with linear trend line
     - Create RFM cluster analysis to identify customer categories
     - Test hypotheses using T Test
     - Create visualisations in line with hypotheses, detailing key insights, conclusions, recommendations and improvements.

@@ -330,18 +330,31 @@ The dashboard design did not replicate the wireframe design in full. After metri
 
 **Online Retail Dashboard** 
 
-This is the main dashboard that represents the summary of the data for example, total revenue, invoices, quantity sold, total number of customers.
+This Online Retail Dashboard provides a comprehensive overview of key performance metrics using transactional data. It includes:
 
-Visualisations on the dashboard that was chosen to provide valuable insights are listed below:
+-  **Summary Cards (Left Panel):**
+    - Key metrics such as total revenue (£9.7M), quantity sold (5.2M), number of customers (4,372), and invoice count (20,525).
 
-- Monthly Revenue and Quantity Trend Analysis (Bar+Line Chart).
-- Top 6 Product Sales Trend Analysis (Line Chart).
-- Revenue Regions (Map).
-- Quarterly Rev & Quantity (Packed Bubbles Chart).
-- Top 6 Customers by Revenue (Bar Chart).
-- Summary cards included as text boxes; total revenue, quantity sold, total customers and invoice count
+- **Monthly Trend Analysis (Top Centre):**
+    - A combined bar and line chart showing monthly quantity sold and total transaction value, with a trend line indicating upward sales momentum throughout the year.
 
-All charts have clear titles, labels, and legends to ensure that users can easily understand the information being presented. Interactive elements, such as filters and tooltips, allow users to explore the data in more detail and gain deeper insights.
+- **Geographical Sales Distribution (Top Right):**
+    - A map visualisation showing total transaction value by country, indicating the UK and parts of Europe as top revenue regions.
+
+- **Quarterly Revenue & Quantity (Bubble Chart):**
+    - Visualises quarterly performance, showing that Q4 (dark blue) generated the highest revenue.
+
+- **Top 6 Product Sales Trend (Bottom Left):**
+    - A line chart tracking monthly transaction value of the six most popular products.
+
+- **Top 6 Customers by Revenue (Bottom Right):**
+    - A bar chart displaying the highest spending customers, with customer ID 15287 contributing the most revenue.
+
+All visual elements within the dashboard are equipped with clear titles, axis labels, and legends to facilitate user comprehension and interpretation of the presented data. 
+
+Additionally, interactive features such as filters and tooltips, enhance user engagement by enabling dynamic exploration of the dataset, therefore supporting deeper insight generation and informed decision making.
+
+Overall, the dashboard offers clear insights into sales trends, regional performance, customer value, and product popularity, supporting informed business decisions.
 
 Worksheet list below:
 
@@ -361,7 +374,9 @@ Worksheet list below:
 
 Dashboard list:
 
-- Online Retail Dashboard Preview:
+- Online Retail Dashboard 
+
+Preview:
 ![alt text](dashboard/Dashboard.png)
 
 ## Kanban Board

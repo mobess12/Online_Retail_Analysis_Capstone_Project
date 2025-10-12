@@ -371,6 +371,7 @@ Worksheet list below:
 - Top 6 Customers - Quantity
 - Top 6 Customers - Rev
 - Monthly Revenue and Quantity Trend Analysis
+- AVG Transaction Value
 
 Dashboard list:
 

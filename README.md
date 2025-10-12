@@ -406,6 +406,8 @@ Preview:
 
 - During the development of the dashboard, two entries "European Community" and "Unspecified" were identified as unknown country listings on the geographic map. Tableau was unable to automatically map these to specific geographic locations. Given that the frequency of these entries is minimal, their presence does not materially impact the data analysis, visualisations, or results. Therefore, they were retained in both the dataset and the dashboard visualisation for completeness, but were not prioritised for correction due to their negligible influence on insights.
 
+![alt text](assets/images/Unknown_locations.png)
+
 ## Development Roadmap
 
 - Throughout the project, I did not encounter any major issues. I proactively offered support to peers and, in turn, received valuable advice and insights from fellow students when needed. This collaborative environment significantly enhanced my learning experience.

@@ -402,7 +402,9 @@ Preview:
 
 ## Unfixed Bugs
 
-- To the best of my knowledge, there are no unresolved bugs present in this project.
+- To the best of my knowledge, there are no major unresolved bugs present in this project.
+
+- During the development of the dashboard, two entries "European Community" and "Unspecified" were identified as unknown country listings on the geographic map. Tableau was unable to automatically map these to specific geographic locations. Given that the frequency of these entries is minimal, their presence does not materially impact the data analysis, visualisations, or results. Therefore, they were retained in both the dataset and the dashboard visualisation for completeness, but were not prioritised for correction due to their negligible influence on insights.
 
 ## Development Roadmap
 

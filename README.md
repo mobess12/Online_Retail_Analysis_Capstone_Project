@@ -400,6 +400,8 @@ You can find this methodology being used for issues [HERE](https://github.com/us
 Preview:
 ![alt text](assets/kanban/KanBan_4.png) 
 
+![alt text](assets/kanban/MoSCoW_Count.png)
+
 ## Unfixed Bugs
 
 - To the best of my knowledge, there are no major unresolved bugs present in this project.
@@ -449,7 +451,7 @@ Preview: ![alt text](dashboard/Dashboard_Tableau.png)
 
 ## Version Control
 
-GitHub was used for version control to track changes and manage the development history of the project. Regular commits (60+ commits) were made after every section addition or small changes with descriptive comments. It ensured that changes were recorded systematically, earlier versions could be restored if needed. 
+GitHub was used for version control to track changes and manage the development history of the project. Regular commits (70+ commits) were made after every section addition or small changes with descriptive comments. It ensured that changes were recorded systematically, earlier versions could be restored if needed. 
 
 Git commands used:
 

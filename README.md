@@ -139,7 +139,7 @@ Column Descriptors:
 
 **Hypothesis 3** - Seasonal spend - Holiday (Black Friday and Christmas) months have a different average transaction value.
 
-- Using a bar chart to is a great choice because it clearly summarizes and compares average transaction values across categories.
+- Using a bar chart to is a great choice because it clearly summarises and compares average transaction values across categories.
 
 To validate the hypothesis, a t-test will be conducted to obtain the p-value, facilitating the determination of its statistical significance. 
 

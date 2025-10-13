@@ -143,7 +143,7 @@ Column Descriptors:
 
 To validate the hypothesis, a t-test will be conducted to obtain the p-value, facilitating the determination of its statistical significance. 
 
-Additionally, the validation process will be supported by visualisations and accompanying commentary within the data visualisations Jupyter Notebook. This commentary will encompass key insights, conclusions, recommendations for improvement, as well as considerations of ethical and societal implications.
+Additionally, the validation process will be supported by visualisations and accompanying commentary within the data visualisations Jupyter Notebook. This commentary will encompass key insights, conclusions, recommendations for improvement, considerations of ethical and societal implications, and evaluation of data analysis used.
 
 Project hypotheses outcome:
 
@@ -185,6 +185,7 @@ Project hypotheses outcome:
     - Test hypotheses using T Test
     - Create visualisations in line with hypotheses, detailing key insights, conclusions, recommendations and improvements.
     - Commentary on ethical and societal considerations for each hypothesis
+    - Evaluation of analysis used
     - Overall conclusion
     - Ethical, legal and social considerations
     - Final thoughts
@@ -368,7 +369,7 @@ The dashboard design did not replicate the wireframe design in full. After metri
 This Online Retail Dashboard provides a comprehensive overview of key performance metrics using transactional data. It includes:
 
 -  **Summary Cards (Left Panel):**
-    - Key metrics such as total revenue (£9.7M), quantity sold (5.2M), number of customers (4,372), and invoice count (20,525).
+    - Key metrics such as total revenue (£9.7M), quantity sold (5.2M), average transation value (18.18), number of customers (4,372), and invoice count (20,525).
 
 - **Monthly Trend Analysis (Top Centre):**
     - A combined bar and line chart showing monthly quantity sold and total transaction value, with a trend line indicating upward sales momentum throughout the year.

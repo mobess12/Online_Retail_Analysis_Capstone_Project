@@ -44,18 +44,22 @@ These AI tools improved productivity, reduced the time spent on repetitive codin
 4. [Hypothesis and How to Validate?](#hypothesis-and-how-to-validate)
 5. [Project Plan](#project-plan)
 6. [Rationale for Visualisations](#rationale-for-visualisations)
+7. [Methodology](#methodology)
 7. [Analysis Techniques Used](#analysis-techniques-used)
 8. [Ethical Considerations](#ethical-considerations)
-9. [Wireframe](#wireframe)
-10. [Dashboard Design](#dashboard-design)
-11. [KanBan Board](#kanban-board)
-12. [Unfixed Bugs](#unfixed-bugs)
-13. [Development Roadmap](#development-roadmap)
-14. [Deployment](#deployment)
-15. [Version Control](#version-control)
-16. [Main Data Analysis Libraries](#main-data-analysis-libraries)
-17. [Credits](#credits)
-18. [Acknowledgements](#acknowledgements)
+9. [Bias and Fairness](#bias-and-fairness)
+10. [Responsible Interpretation](#responsible-interpretation)
+11. [Legal and Usage Compliance](#legal-and-usage-compliance)
+12. [Wireframe](#wireframe)
+13. [Dashboard Design](#dashboard-design)
+14. [KanBan Board](#kanban-board)
+15. [Unfixed Bugs](#unfixed-bugs)
+16. [Development Roadmap](#development-roadmap)
+17. [Deployment](#deployment)
+18. [Version Control](#version-control)
+19. [Main Data Analysis Libraries](#main-data-analysis-libraries)
+20. [Credits](#credits)
+21. [Acknowledgements](#acknowledgements)
 
 ## Dataset Content
 
@@ -218,6 +222,12 @@ These business objectives are accomplished through comprehensive data processing
 
 In the retail industry, the analysis of sales trends, seasonality, customer spending behaviours, regional exposure, and product preferences is a standard practice employed to inform strategic decision making and enhance business performance.
 
+## Methodology
+
+I selected a research method based on quantitative data rather than personal feelings or opinions. By using a hypothesis driven approach, i started with specific statements or predictions that i tested using data. 
+
+This method was selected for this project as it helped me focus on clear, objective business trends such as sales and spending habits instead of subjective judgments or interpretations. By relying on measurable facts and numerical data, this approach reduces the influence of biases and subjective opinions, ensuring that conclusions are based on evidence rather than assumptions. 
+
 ## Analysis techniques used
 
 **List of techniques used**
@@ -284,6 +294,8 @@ Data Visualisation Notebook:
 
 I structured the data analysis using a diverse range of techniques drawn from the LMS, incorporating visualisations from libraries such as Seaborn, Matplotlib, and Plotly. Care was taken to apply an appropriate method for each analytical objective, ensuring both variety and relevance in the techniques selected to support the insights being presented.
 
+**Challenges:**
+
 I chose not to use an area chart for the customer analysis section, as it resulted in a cluttered and less interpretable visual. Instead, I opted for bar charts, which provided a clearer, more concise representation of the data and effectively communicated the intended insights.
 
 In the summary statistics section, the histogram visualisation of the t-test results was omitted, as it provided minimal visual value and did not contribute meaningful insights.
@@ -307,6 +319,30 @@ Selected written content was refined with the support of AI tools to enhance cla
 - The ETL notebook incorporates a dedicated section addressing the ethical, legal, and social implications associated with data handling practices.
 
 - The data_visualisation notebook includes commentary on ethical and societal considerations relevant to each hypothesis and the RFM customer analysis.
+
+## Bias and Fairness
+
+The dataset primarily reflects transactions from a specific online retail platform, which may introduce potential biases. For example:
+
+- Independent or smaller vendors may be underrepresented compared to larger suppliers.
+
+- Sales and customer behaviour are predominantly drawn from UK and Western markets, limiting the generalisability to global consumer trends.
+
+- Purchase patterns may reflect the preferences of dominant regional groups, potentially overlooking cultural or regional differences in purchasing behaviour.
+
+To mitigate the above by reducing the risk of misinterpretation, it is important to acknowledge these limitations when analysing and presenting findings. Clearly stating the datasets scope and context ensures transparency.
+
+## Responsible Interpretation
+
+Sales performance reflects transactional trends and customer behaviour, but does not necessarily indicate product quality or consumer satisfaction. High sales may be driven by factors such as seasonal demand or stock availability rather than product superiority. Therefore:
+
+- Insights were interpreted with a focus on commercial patterns, not value judgments.
+
+- Hypotheses are supported by data but acknowledge the influence of external market dynamics.
+
+## Legal and Usage Compliance
+
+The dataset was obtained from an open-access platform (Kaggle) and is authorised for educational and non-commercial use. It contains no personal, proprietary, or sensitive information. All data processing, analysis, and visualisation were carried out in compliance with legal regulations and ethical standards, with particular attention to transparency, fairness, and data protection principles.
 
 ## Wireframe
 

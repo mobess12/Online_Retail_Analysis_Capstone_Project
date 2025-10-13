@@ -161,6 +161,8 @@ Project hypotheses outcome:
 
 ## Project Plan
 
+**Sprint 1 - ETL & EDA 07/10/25**
+
 1. Data Collection
     - Gather the dataset from Kaggle
     - Unzip folder and extract contents to be imported into VSCode
@@ -176,28 +178,45 @@ Project hypotheses outcome:
     - Save cleaned dataset as processed data
     - Use descriptive statistics to understand the data
     - Review
+
+**Sprint 2 - Exploratory Analysis  & Visualisation 08/10/2025 - 09/10/2025**
+
 5. Explore Data and Visualise
     - Statistics
     - Probability
     - Create visualisations based on sales, customers and products to identify trends and patterns for key insights, conclusions, recommendations and improvements
     - Create monthly trend analysis visualisation with linear trend line
     - Create RFM cluster analysis to identify customer categories
+
+**Sprint 3 - Hypotheses 09/10/2025 - 10/10/2025**
+
+ 5. Explore Data and Visualise (continued)
     - Test hypotheses using T Test
     - Create visualisations in line with hypotheses, detailing key insights, conclusions, recommendations and improvements.
     - Commentary on ethical and societal considerations for each hypothesis
     - Evaluation of analysis used
+
+**Sprint 4 - Conclusions & Future Developments 11/10/2025**
+
+5. Explore Data and Visualise (continued)
     - Overall conclusion
     - Ethical, legal and social considerations
     - Final thoughts
     - Future Developments
     - Store still images in the appropriate folders (plotly charts)
     - Review
+
+**Sprint 5 - Dashboard Developmenton 11/10/2025 - 12/10/2025**
+
 6. Dashboard Creation
     - Create wireframe using Figma
     - Use a wireframe and Tableau to plan and create an interactive dashboard that includes key metrics and visualisations in line with the hypotheses
     - Publish Dashboard
     - Store screengrabs of the wireframe and dashboard in the appropriate folders
     - Review
+
+**Sprint 6 - Documentation & Finalise Project Developments 12/10/2025 - 13/10/2025**
+
 7. README
     - Write comprehensive README document
     - Store KanBan phases images in the appropriate folder

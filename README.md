@@ -307,7 +307,7 @@ I encountered initial challenges when using Figma, as I had no prior experience 
 
 AI was utilised during the ideation phase to explore key elements commonly prioritised in online retail businesses. This supported my understanding of relevant business goals and objectives, which informed the development of appropriate business requirements and hypotheses. Additionally, AI tools facilitated the selection of suitable visualisation techniques aligned with the analytical needs of an online retail context.
 
-AI tools were employed to support my understanding of specific coding scripts, particularly those related to statistical methods such as t-tests, probability and RFM clustering. This enhanced my conceptual knowledge and provided clarity on the practical implementation of these techniques within the analytical process.
+AI tools were employed for assisstance and to support my understanding of specific coding scripts, particularly those related to statistical methods such as t-tests, probability and RFM clustering. AI was in the driver’s seat throughout this process, guiding the analytical workflow and offering step-by-step explanations. This enhanced my conceptual knowledge and provided clarity on the practical implementation of these techniques within the analytical process.
 
 Selected written content was refined with the support of AI tools to enhance clarity, coherence, and adherence to a formal academic writing style.
 

@@ -206,7 +206,7 @@ Project hypotheses outcome:
     - Store still images in the appropriate folders (plotly charts)
     - Review
 
-**Sprint 5 - Dashboard Developmenton 11/10/2025 - 12/10/2025**
+**Sprint 5 - Dashboard Development 11/10/2025 - 12/10/2025**
 
 6. Dashboard Creation
     - Create wireframe using Figma
